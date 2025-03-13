@@ -1,0 +1,33 @@
+h1 {
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    background-color: red;
+    font-size: 100px;
+}
+h2 {    
+    font-family: "Courgette", "Times New Roman", "Courier";  
+    font-size: 50px;     
+}
+
+h3 {
+    font-size: 30px ;
+}
+
+.babies-img {
+    padding-top: 10px;
+    animation: robot-from-left;
+    animation-duration: 4s;
+}
+
+/* for animations */
+@keyframes background-change {
+    0% {background-color: blue;}
+    50% {background-color: green;}
+    100% {background-color: red;}
+}
+
+@keyframes robot-from-left {
+    0% {transform: translateX(-100%) rotateX(360deg);}
+    100% {transform: translateX(0%);}
+}
